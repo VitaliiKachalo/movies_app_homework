@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="0" tests="3" time="187.003790" name="Home screen">
+<testcase classname="Home screen" name="Total movies on Featured screen" time="17.937777">
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Home screen" name="Movie info" time="85.065883">
+  <system-out>
+    <![CDATA[["Crimson Peak", "2015", 6.0]
+["Spectre", "2015", 6.4]
+["The Martian", "2015", 7.7]
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Home screen" name="Highest rating movie" time="84.000130">
+  <system-out>
+    <![CDATA[["Crimson Peak", "2015", 6.0]
+["Spectre", "2015", 6.4]
+["The Martian", "2015", 7.7]
+["The Martian", "2015", 7.7]
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>
