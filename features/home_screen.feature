@@ -11,7 +11,7 @@ Feature: Home screen
 
   Scenario: Highest rating movie
     When I land on Home Screen
-    Then I go over "2" first movies
+    Then I go over "5" first movies
     And I pick highest one
 
 
