@@ -7,11 +7,11 @@ Feature: Home screen
 
   Scenario: Movie info
     When I land on Home Screen
-    And I go over "5" first movies
+    And I go over "3" first movies
 
   Scenario: Highest rating movie
     When I land on Home Screen
-    Then I go over "5" first movies
+    Then I go over "3" first movies
     And I pick highest one
 
 
